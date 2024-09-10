@@ -1,9 +1,6 @@
 package baekgwa.springaop;
 
-import baekgwa.springaop.global.aop.AspectV1;
-import baekgwa.springaop.global.aop.AspectV2;
-import baekgwa.springaop.global.aop.AspectV3;
-import baekgwa.springaop.global.aop.AspectV4;
+import baekgwa.springaop.global.aop.aspects.AspectV4;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
@@ -38,8 +35,8 @@ public class SpringAopApplication {
 //    }
 
     //예제4
-    @Bean
-    public AspectV4.Transaction transaction() {
-        return new AspectV4.Transaction();
-    }
+//    @Bean
+//    public AspectV4.Transaction transaction() {
+//        return new AspectV4.Transaction();
+//    }
 }

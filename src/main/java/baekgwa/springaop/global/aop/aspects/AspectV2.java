@@ -1,4 +1,4 @@
-package baekgwa.springaop.global.aop;
+package baekgwa.springaop.global.aop.aspects;
 
 import lombok.extern.slf4j.Slf4j;
 import org.aspectj.lang.ProceedingJoinPoint;
